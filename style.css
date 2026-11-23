@@ -19,3 +19,12 @@ main{max-width:760px;margin:0 auto;padding:24px 18px}
 footer{text-align:center;color:var(--muted);padding:24px 16px;border-top:1px solid #eadfce;font-family:Arial,sans-serif;font-size:.9rem}
 @media(max-width:640px){.cards{grid-template-columns:1fr}.brand{font-size:1.6rem}}
 
+/* Category sub-header bar (sticky, scrolls horizontally on small screens) */
+.sub-header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:2px solid var(--accent);padding:10px 16px;text-align:center;overflow-x:auto;white-space:nowrap;font-family:Arial,sans-serif}
+.sub-header a{display:inline-block;margin:0 12px;color:var(--accent);text-decoration:none;font-size:.95rem;font-weight:700}
+.sub-header a:hover{text-decoration:underline}
+/* Category sections on the homepage */
+.category-section{margin-top:36px;scroll-margin-top:60px}
+.category-section h3{font-family:Arial,sans-serif;color:var(--accent);font-size:1.3rem;margin-bottom:4px}
+.category-section .category-intro{color:var(--muted);margin:0 0 16px}
+
